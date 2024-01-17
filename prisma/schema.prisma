@@ -13,6 +13,7 @@ datasource db {
 model sample {
   id    String @id
   name  String
+  description String? @db.Text
 }
 
 model Customer {
